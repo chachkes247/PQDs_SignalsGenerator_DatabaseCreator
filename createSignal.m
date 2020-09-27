@@ -93,14 +93,16 @@ switch disturb
     case 'Impulsive Transient'
         y = ( 1 - alpha.*(heaviside(t-t1)-heaviside(t-t2)) ).*sin(w*t);
         yNoisy = awgn(y,WGN_level);
-
-    % case 'Voltage Fluctuations'
+        
+        
+        
+        % case 'Voltage Fluctuations'
         %FORMULA IS MISSING
         
-    % case Power Frequency Variations
+        % case Power Frequency Variations
         %FORMULA IS MISSING
         
-    % otherwise %Pure Normal 50 Hz sine wave
+        % otherwise %Pure Normal 50 Hz sine wave
         %         y=sin(w*t);
         %         yNoisy = awgn(y,WGN_level);
         
