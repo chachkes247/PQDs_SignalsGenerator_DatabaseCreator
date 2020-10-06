@@ -1,11 +1,6 @@
 function [  ] = SetParametersRange( app )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
-
 % Parameters initial values :
 % occurs in app designer
-
-%%TODO : Set a min value - app.alpha=MinOfRange for AutoPlotting 
 
 % Parameters Dynamic range :
 switch app.signal_label
