@@ -96,7 +96,7 @@ for i=1:NumOfVec %N different signals will be created
         DBapp.DataBase(1).signals = signal;
     else
         DBapp.DataBase(end+1).labels = signal_label;
-        DBapp.DataBase(end+1).signals = signal;
+        DBapp.DataBase(end).signals = signal;
     end
     % Radomize DB permutation :
     %app.DataBase(randperm(length(app.DataBase)));
